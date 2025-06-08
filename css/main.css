@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Quintessential";
+  src: url("../fonts/Quintessential.ttf") 
+  format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf")
+   format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+p {
+  font-size: 18px;
+}
+
+/*  MAIN HEADER */
+#main-h {
+  font-family: "Quintessential";
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/romanian-flag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid #BF2604;
+}
+h1, h2, h3, h4 {
+  font-family: "Quintessential";
+}
+
+#main-c h1, #main-c h2 {
+  font-size: 28px;
+}
+#main-h h1 {
+  margin-top: 50px;
+  color: #fff;
+  float: left;
+  font-size: 36px;
+}
+.center-cont {
+  width: 80%;
+  margin: 0px auto;
+}
+#main-n {
+  float: right;
+  margin-top: 40px;
+}
+#main-n ul {
+  padding-left: 0;
+  list-style: none;
+}
+#main-n li {
+ display: inline;
+}
+#main-n a {
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 22px;
+}
+#current {
+  color: #F2BB16;
+}
+/* FAMOUS COMMUNE SECTION  */
+.famous-commune-desc {
+  margin: 0px auto;
+  color: #fff;
+  padding: 100px 0px 100px 0px;
+}
+.famous-commune-desc h1 {
+  text-align: center;
+}
+.famous-commune-desc p {
+  line-height: 2em;
+  text-indent: 2em;
+}
+#showcase-1 {
+  
+  background-image: url('../images/Ciocanesti-Village.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.alpha-showcase-1 {
+  background-color: hsla(0, 0%, 0%, .65);
+}
+#showcase-2 {
+  background-image: url('../images/Sirnea.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.alpha-showcase-2 {
+  background-color: hsla(0, 0%, 0%, .75);
+}
+#showcase-3 {
+  background-image: url("../images/Rimetea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.alpha-showcase-3 {
+  background-color: hsla(0, 0%, 0%, .6);
+}
+
+/*  FOOTER   */
+#main-f {
+  background-color: #BF2604;
+  width: 100%;
+  margin: 0px auto;
+  height: 300px;
+  border-top: 2px solid #023E73;
+  clear: both;
+}
+#main-f p {
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
+  margin: 00px;
+}
+#footer-nav {
+  padding: 0px 0px;
+  margin: 0px auto;
+  width: 100px;
+  text-align: center;
+}
+#footer-nav ul {
+  padding-left: 0;
+}
+#footer-nav li {
+  padding-left: none;
+  list-style: none;
+  padding: 10px 0px;
+
+}
+#footer-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Communes page*/
+.communes-cont {
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px 0;
+  background-color: #023E73;
+  border-radius: 20px;
+  color: #fff;
+  line-height: 2.25;
+  border: 1px #04328C ridge;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+}
+.communes-cont ol {
+  background-color: #BF2604;
+  border-radius: 10px;
+  padding: 15px 15px 15px 25px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 2px rgba(242, 187, 22, 0.8);
+}
+.communes-cont ol ol {
+  background-color: none;
+  box-shadow: none;
+}
+.communes-cont img {
+  width: 50%;
+  border: 2px dashed #F2BB16;
+}
+
+/*TRAVEL PAGE*/
+.left-cont {
+  width: 65%;
+  float: left;
+  padding: 20px;
+  background-color: #023E73;
+  color: #fff;
+  line-height: 2.25;
+  box-sizing: border-box;
+}
+.right-cont {
+  width: 35%;
+  padding: 15px;
+  float: right;
+  
+  box-sizing: border-box;
+}
+.right-cont label, .right-cont input, .right-cont textarea {
+  display: block;
+}
+.right-cont label {
+  padding: 10px 0px;
+}
+.right-cont input, .right-cont textarea {
+  width: 80%;
+}
+.right-cont button {
+  margin: 15px 0px;
+  width: 80%;
+  padding: 10px;
+  background-color: #BF2604;
+  color: #fff;
+  border: 2px solid #1685f2;
+}
+@media(max-width: 909px) {
+  #main-h h1 {
+    padding-top: 20px;
+  }
+  #main-h h1, 
+  #main-h #main-n {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+  }
+  .communes-cont img {
+    width: 70%;
+  }
+  .left-cont, .right-cont {
+    float: none;
+    width: 100%;
+  }
+  .right-cont {
+    padding-left: 40px;
+  }
+  .right-cont input, .right-cont textarea {
+    width: 80%;
+    padding: 5px;
+  }
+}
+@media(max-width: 490px) {
+  .center-cont {
+    width: 90%;
+  }
+  .right-cont input, .right-cont textarea {
+    width: 50%;
+    padding: 5px;
+  }
+  #main-h {
+    height: 200px;
+  }
+  #main-h h1 {
+    width: 100%;
+  }
+  .communes-cont img {
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+  }
+}
+@media(max-width: 380px) {
+ 
+  #main-h {
+    height: 200px;
+  }
+  #main-h h1 {
+    font-size: 30px;
+  }
+  #main-n ul a {
+    font-size: 20px;
+  }
+  
+}
